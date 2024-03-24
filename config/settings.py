@@ -16,10 +16,10 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
+# Quick-start development settings - unsuitable for productionP
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: keep the secret key used in production secret!``
 SECRET_KEY = 'django-insecure-xgwke00_jl-q@a0fz*pg6gl#k-uh@yibxz7%tpqb-i9!**m)pa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -118,6 +118,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = 'staticfiles'
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
